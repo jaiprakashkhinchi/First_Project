@@ -1,0 +1,106 @@
+body{
+	margin:0;
+}
+header{ background: url(a1.png) left no-repeat,url(a2.png) right no-repeat;
+	background-size: 120px, 140px, auto;
+	font-size: 40px;
+	color:black;
+padding: 10px;
+margin-bottom: 10px;
+background-color: white;
+
+text-align: center;
+}
+header a{ text-shadow: 0px 3px lightgrey;
+	text-decoration: none;
+	margin-bottom: o;
+}
+header a:visited, header a:link
+{
+	color:black;
+}
+header a:hover{
+	color:green;
+}
+.d{font-family: verdana;
+font-weight: lighter;
+font-size:20px;
+margin-top:0;}
+footer{text-align: center;
+padding:20px;
+background-color:white;
+margin-bottom: o;}
+.row
+{margin-top: 30px;}
+.column{
+		background-color: rgba(0,0,0,.1);
+	overflow: auto;margin: 15px;
+ border: 1px solid rgba(0,0,0,.6);
+}
+img{
+	margin: 10px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+div .column p, {line-height: 1.5;
+	margin: 15px;
+}
+.column:hover{
+	box-shadow: 3px 2px rgba(0,0,0,.458); 
+}
+
+.column{height: 350px;
+	overflow-y:auto; 
+	float: left;
+width:28%;
+padding: 15px;}
+.row:after{
+	content: "";
+	display: table;
+	clear:both;
+}
+@media only screen and (max-width: 700px){
+    img {
+        width: 49.99999%;
+       
+    }
+}
+
+@media only screen and (max-width: 500px){
+    img { margin:0; 
+        width: 100%;
+    }
+    header{padding: 7px;
+    	font-size: 25px;
+    	background: url(a1.png) left top no-repeat,url(a2.png) right bottom no-repeat;
+    	background-size: 60px,60px,auto;
+    }
+    header .d{font-size: 12px;}
+    .topnav a{
+    	width: 100%; 
+    }
+  .column{width: 85%;height:350px;
+  	overflow-x: none;
+  	margin:10px; }
+}
+
